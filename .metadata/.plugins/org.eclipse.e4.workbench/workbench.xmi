@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmlns:ui="http://www.eclipse.org/ui/2010/UIModel/application/ui" xmi:id="_oO_rwFo2EeWdxs5Xx6XbDw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_oO_rwVo2EeWdxs5Xx6XbDw" bindingContexts="_oPCvKVo2EeWdxs5Xx6XbDw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;index.xhtml&quot; tooltip=&quot;SistMatWeb/WebContent/index.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/WebContent/index.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.jsdt.ui.CompilationUnitEditor&quot; name=&quot;login.js&quot; tooltip=&quot;SistMatWeb/WebContent/resources/css/login.js&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/WebContent/resources/css/login.js&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;login.xhtml&quot; tooltip=&quot;SistMatWeb/WebContent/login.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/WebContent/login.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;template.xhtml&quot; tooltip=&quot;SistMatWeb/WebContent/template.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/WebContent/template.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;aluno.xhtml&quot; tooltip=&quot;SistMatWeb/WebContent/aluno.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/WebContent/aluno.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.css.core.csssource.source&quot; name=&quot;estilo.css&quot; tooltip=&quot;SistMatWeb/WebContent/css/estilo.css&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/WebContent/css/estilo.css&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AlunoMB.java&quot; tooltip=&quot;SistMatWeb/src/br/senai/sc/mb/AlunoMB.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/src/br/senai/sc/mb/AlunoMB.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AutentificacaoMB.java&quot; tooltip=&quot;SistMatWeb/src/br/senai/sc/mb/AutentificacaoMB.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/src/br/senai/sc/mb/AutentificacaoMB.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.jsdt.ui.CompilationUnitEditor&quot; name=&quot;login.js&quot; tooltip=&quot;SistMatWeb/WebContent/javascript/login.js&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/WebContent/javascript/login.js&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory&quot; id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;login.xhtml&quot; tooltip=&quot;SistMatWeb/WebContent/login.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/WebContent/login.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.wst.server.ui.editor.input.factory&quot; id=&quot;org.eclipse.wst.server.ui.editor&quot; name=&quot;JBoss AS 7.1&quot; tooltip=&quot;JBoss AS 7.1&quot;>&#xD;&#xA;&lt;persistable server-id=&quot;JBoss AS 7.11441311224071&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jpt.jpa.ui.internal.editors.PersistenceEditor&quot; name=&quot;persistence.xml&quot; tooltip=&quot;SistMatJPA/src/META-INF/persistence.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatJPA/src/META-INF/persistence.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jboss.tools.common.model.ui.editor.EditorPartWrapper&quot; name=&quot;web.xml&quot; tooltip=&quot;SistMatWeb/WebContent/WEB-INF/web.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/WebContent/WEB-INF/web.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jboss.tools.common.model.ui.editor.EditorPartWrapper&quot; name=&quot;faces-config.xml&quot; tooltip=&quot;SistMatWeb/WebContent/WEB-INF/faces-config.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/WebContent/WEB-INF/faces-config.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;login.xhtml&quot; tooltip=&quot;SistMatWeb/WebContent/login.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/WebContent/login.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;index.xhtml&quot; tooltip=&quot;SistMatWeb/WebContent/index.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/WebContent/index.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Professor.java&quot; tooltip=&quot;SistMatJPA/src/br/senai/sc/model/Professor.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatJPA/src/br/senai/sc/model/Professor.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Unidade_CurricularFacade.java&quot; tooltip=&quot;SistMatClient/ejbModule/br/senai/sc/facade/Unidade_CurricularFacade.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatClient/ejbModule/br/senai/sc/facade/Unidade_CurricularFacade.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;UsuarioFacade.java&quot; tooltip=&quot;SistMatClient/ejbModule/br/senai/sc/facade/UsuarioFacade.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatClient/ejbModule/br/senai/sc/facade/UsuarioFacade.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AlunoFacade.java&quot; tooltip=&quot;SistMatClient/ejbModule/br/senai/sc/facade/AlunoFacade.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatClient/ejbModule/br/senai/sc/facade/AlunoFacade.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Unidade_Curricular.java&quot; tooltip=&quot;SistMatJPA/src/br/senai/sc/model/Unidade_Curricular.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatJPA/src/br/senai/sc/model/Unidade_Curricular.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Log.java&quot; tooltip=&quot;SistMatJPA/src/br/senai/sc/model/Log.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatJPA/src/br/senai/sc/model/Log.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.jsdt.ui.CompilationUnitEditor&quot; name=&quot;login.js&quot; tooltip=&quot;SistMatWeb/WebContent/resources/css/login.js&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/WebContent/resources/css/login.js&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;template.xhtml&quot; tooltip=&quot;SistMatWeb/WebContent/template.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/WebContent/template.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;aluno.xhtml&quot; tooltip=&quot;SistMatWeb/WebContent/aluno.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/WebContent/aluno.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.css.core.csssource.source&quot; name=&quot;estilo.css&quot; tooltip=&quot;SistMatWeb/WebContent/css/estilo.css&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/WebContent/css/estilo.css&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AlunoMB.java&quot; tooltip=&quot;SistMatWeb/src/br/senai/sc/mb/AlunoMB.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/src/br/senai/sc/mb/AlunoMB.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AutentificacaoMB.java&quot; tooltip=&quot;SistMatWeb/src/br/senai/sc/mb/AutentificacaoMB.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SistMatWeb/src/br/senai/sc/mb/AutentificacaoMB.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_oO_rwVo2EeWdxs5Xx6XbDw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_oO_rwlo2EeWdxs5Xx6XbDw" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="697" height="735">
@@ -79,10 +79,9 @@
           <tags>persp.newWizSC:org.jboss.tools.cdi.ui.wizard.NewBeansXMLCreationWizard</tags>
           <tags>persp.actionSet:org.jboss.tools.cdi.ui.actionSet</tags>
           <tags>persp.showIn:org.jboss.tools.forge.ui.view</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_oO_rxVo2EeWdxs5Xx6XbDw" selectedElement="_oO_rxlo2EeWdxs5Xx6XbDw" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_oO_rxVo2EeWdxs5Xx6XbDw" selectedElement="_oO_ry1o2EeWdxs5Xx6XbDw" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_oO_rxlo2EeWdxs5Xx6XbDw" elementId="topLeft" containerData="1963" selectedElement="_oO_rx1o2EeWdxs5Xx6XbDw">
               <tags>newtablook</tags>
-              <tags>active</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_oO_rx1o2EeWdxs5Xx6XbDw" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_oPAUo1o2EeWdxs5Xx6XbDw"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_oO_ryFo2EeWdxs5Xx6XbDw" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_oPA54Fo2EeWdxs5Xx6XbDw"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_oO_ryVo2EeWdxs5Xx6XbDw" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_oPA54Vo2EeWdxs5Xx6XbDw"/>
@@ -90,12 +89,11 @@
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_oO_ry1o2EeWdxs5Xx6XbDw" containerData="8037" selectedElement="_oO_rzFo2EeWdxs5Xx6XbDw" horizontal="true">
               <children xsi:type="basic:PartSashContainer" xmi:id="_oO_rzFo2EeWdxs5Xx6XbDw" containerData="100" selectedElement="_oO_rzlo2EeWdxs5Xx6XbDw">
-                <children xsi:type="advanced:Placeholder" xmi:id="_oO_rzVo2EeWdxs5Xx6XbDw" elementId="org.eclipse.ui.editorss" containerData="2512" ref="_oPAUKVo2EeWdxs5Xx6XbDw"/>
-                <children xsi:type="basic:PartStack" xmi:id="_oO_rzlo2EeWdxs5Xx6XbDw" elementId="bottomRight" visible="false" containerData="7488" selectedElement="_oO_r01o2EeWdxs5Xx6XbDw">
+                <children xsi:type="advanced:Placeholder" xmi:id="_oO_rzVo2EeWdxs5Xx6XbDw" elementId="org.eclipse.ui.editorss" containerData="5878" ref="_oPAUKVo2EeWdxs5Xx6XbDw"/>
+                <children xsi:type="basic:PartStack" xmi:id="_oO_rzlo2EeWdxs5Xx6XbDw" elementId="bottomRight" containerData="4122" selectedElement="_oO_r01o2EeWdxs5Xx6XbDw">
                   <tags>newtablook</tags>
                   <tags>org.eclipse.e4.secondaryDataStack</tags>
-                  <tags>noFocus</tags>
-                  <tags>Minimized</tags>
+                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_oO_rz1o2EeWdxs5Xx6XbDw" elementId="org.eclipse.ui.views.AllMarkersView" ref="_oPA541o2EeWdxs5Xx6XbDw"/>
                   <children xsi:type="advanced:Placeholder" xmi:id="_oO_r0Fo2EeWdxs5Xx6XbDw" elementId="org.eclipse.ui.views.PropertySheet" toBeRendered="false" ref="_oPA561o2EeWdxs5Xx6XbDw"/>
                   <children xsi:type="advanced:Placeholder" xmi:id="_oO_r0Vo2EeWdxs5Xx6XbDw" elementId="org.eclipse.wst.server.ui.ServersView" ref="_oPA57lo2EeWdxs5Xx6XbDw"/>
@@ -203,177 +201,21 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_oPAUKVo2EeWdxs5Xx6XbDw" elementId="org.eclipse.ui.editorss" selectedElement="_oPAUKlo2EeWdxs5Xx6XbDw">
-      <children xsi:type="basic:PartStack" xmi:id="_oPAUKlo2EeWdxs5Xx6XbDw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_oPAUf1o2EeWdxs5Xx6XbDw">
+      <children xsi:type="basic:PartStack" xmi:id="_oPAUKlo2EeWdxs5Xx6XbDw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_7wtG4I42EeWSEJIOX-HE_g">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <children xsi:type="basic:Part" xmi:id="_oPAUK1o2EeWdxs5Xx6XbDw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="estilo.css" iconURI="platform:/plugin/org.eclipse.wst.css.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.css.core.csssource.source&quot; name=&quot;estilo.css&quot; partName=&quot;estilo.css&quot; title=&quot;estilo.css&quot; tooltip=&quot;SistMatWeb/WebContent/resources/css/estilo.css&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SistMatWeb/WebContent/resources/css/estilo.css&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;222&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.wst.css.core.csssource.source</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAULFo2EeWdxs5Xx6XbDw" elementId="org.eclipse.wst.css.core.csssource.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.css.core.csssource.source.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAULVo2EeWdxs5Xx6XbDw" elementId="org.eclipse.wst.css.core.csssource.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.css.core.csssource.source.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAULlo2EeWdxs5Xx6XbDw" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUL1o2EeWdxs5Xx6XbDw" elementId="org.eclipse.wst.css.core.csssource.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.css.core.csssource.source.EditorContext</tags>
-            <tags>popup:org.eclipse.wst.css.core.csssource.source.source.EditorContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.EditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUMFo2EeWdxs5Xx6XbDw" elementId="org.eclipse.wst.css.core.csssource.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.wst.css.core.csssource.source.RulerContext</tags>
-            <tags>popup:org.eclipse.wst.css.core.csssource.source.source.RulerContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.RulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_oPAUMVo2EeWdxs5Xx6XbDw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="template.xhtml" iconURI="platform:/plugin/org.jboss.tools.jst.web.ui/images/xstudio/editors/html_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;template.xhtml&quot; partName=&quot;template.xhtml&quot; title=&quot;template.xhtml&quot; tooltip=&quot;SistMatWeb/WebContent/template.xhtml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory&quot; path=&quot;/SistMatWeb/WebContent/template.xhtml&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUMlo2EeWdxs5Xx6XbDw" elementId="jsf.facelet.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:jsf.facelet.source.EditorContext</tags>
-            <tags>popup:org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUM1o2EeWdxs5Xx6XbDw" elementId="jsf.facelet.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:jsf.facelet.source.RulerContext</tags>
-            <tags>popup:org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUNFo2EeWdxs5Xx6XbDw" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUNVo2EeWdxs5Xx6XbDw" elementId="jsf.facelet.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:jsf.facelet.source.EditorContext</tags>
-            <tags>popup:org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor.source.EditorContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.EditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUNlo2EeWdxs5Xx6XbDw" elementId="jsf.facelet.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:jsf.facelet.source.RulerContext</tags>
-            <tags>popup:org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor.source.RulerContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.RulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_oPAUN1o2EeWdxs5Xx6XbDw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="aluno.xhtml" iconURI="platform:/plugin/org.jboss.tools.jst.web.ui/images/xstudio/editors/html_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;aluno.xhtml&quot; partName=&quot;aluno.xhtml&quot; title=&quot;aluno.xhtml&quot; tooltip=&quot;SistMatWeb/WebContent/aluno.xhtml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory&quot; path=&quot;/SistMatWeb/WebContent/aluno.xhtml&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUOFo2EeWdxs5Xx6XbDw" elementId="jsf.facelet.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:jsf.facelet.source.EditorContext</tags>
-            <tags>popup:org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUOVo2EeWdxs5Xx6XbDw" elementId="jsf.facelet.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:jsf.facelet.source.RulerContext</tags>
-            <tags>popup:org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUOlo2EeWdxs5Xx6XbDw" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUO1o2EeWdxs5Xx6XbDw" elementId="jsf.facelet.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:jsf.facelet.source.EditorContext</tags>
-            <tags>popup:org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor.source.EditorContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.EditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUWlo2EeWdxs5Xx6XbDw" elementId="jsf.facelet.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:jsf.facelet.source.RulerContext</tags>
-            <tags>popup:org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor.source.RulerContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.RulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_oPAUW1o2EeWdxs5Xx6XbDw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="login.xhtml" iconURI="platform:/plugin/org.jboss.tools.jst.web.ui/images/xstudio/editors/html_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;login.xhtml&quot; partName=&quot;login.xhtml&quot; title=&quot;login.xhtml&quot; tooltip=&quot;SistMatWeb/WebContent/login.xhtml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory&quot; path=&quot;/SistMatWeb/WebContent/login.xhtml&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUXFo2EeWdxs5Xx6XbDw" elementId="jsf.facelet.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:jsf.facelet.source.EditorContext</tags>
-            <tags>popup:org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUXVo2EeWdxs5Xx6XbDw" elementId="jsf.facelet.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:jsf.facelet.source.RulerContext</tags>
-            <tags>popup:org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUXlo2EeWdxs5Xx6XbDw" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUX1o2EeWdxs5Xx6XbDw" elementId="jsf.facelet.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:jsf.facelet.source.EditorContext</tags>
-            <tags>popup:org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor.source.EditorContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.EditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUflo2EeWdxs5Xx6XbDw" elementId="jsf.facelet.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:jsf.facelet.source.RulerContext</tags>
-            <tags>popup:org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor.source.RulerContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.RulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_oPAUf1o2EeWdxs5Xx6XbDw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="index.xhtml" iconURI="platform:/plugin/org.jboss.tools.jst.web.ui/images/xstudio/editors/html_file.gif" closeable="true">
+        <children xsi:type="basic:Part" xmi:id="_6RjBQI42EeWSEJIOX-HE_g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="index.xhtml" iconURI="platform:/plugin/org.jboss.tools.jst.web.ui/images/xstudio/editors/html_file.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;index.xhtml&quot; partName=&quot;index.xhtml&quot; title=&quot;index.xhtml&quot; tooltip=&quot;SistMatWeb/WebContent/index.xhtml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory&quot; path=&quot;/SistMatWeb/WebContent/index.xhtml&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor</tags>
           <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUgFo2EeWdxs5Xx6XbDw" elementId="jsf.facelet.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:jsf.facelet.source.EditorContext</tags>
-            <tags>popup:org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUgVo2EeWdxs5Xx6XbDw" elementId="jsf.facelet.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:jsf.facelet.source.RulerContext</tags>
-            <tags>popup:org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUglo2EeWdxs5Xx6XbDw" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUg1o2EeWdxs5Xx6XbDw" elementId="jsf.facelet.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:jsf.facelet.source.EditorContext</tags>
-            <tags>popup:org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor.source.EditorContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.EditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_oPAUolo2EeWdxs5Xx6XbDw" elementId="jsf.facelet.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:jsf.facelet.source.RulerContext</tags>
-            <tags>popup:org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor.source.RulerContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.RulerContext</tags>
-          </menus>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_7wtG4I42EeWSEJIOX-HE_g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="login.xhtml" iconURI="platform:/plugin/org.jboss.tools.jst.web.ui/images/xstudio/editors/html_file.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor&quot; name=&quot;login.xhtml&quot; partName=&quot;login.xhtml&quot; title=&quot;login.xhtml&quot; tooltip=&quot;SistMatWeb/WebContent/login.xhtml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory&quot; path=&quot;/SistMatWeb/WebContent/login.xhtml&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.jboss.tools.jst.jsp.jspeditor.HTMLTextEditor</tags>
+          <tags>removeOnHide</tags>
         </children>
       </children>
     </sharedElements>
@@ -381,8 +223,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;1&quot; currentWorkingSetName=&quot;Aggregate for window 1425326442035&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_oPAUpFo2EeWdxs5Xx6XbDw" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -559,6 +399,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_oPA6PFo2EeWdxs5Xx6XbDw" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -893,7 +735,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oPA6mVo2EeWdxs5Xx6XbDw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_p1EwMHKJEeWL1azPxSM3bA" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_oPFylVo2EeWdxs5Xx6XbDw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_JOwkEI4OEeWSEJIOX-HE_g" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_oPFylVo2EeWdxs5Xx6XbDw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oPA6plo2EeWdxs5Xx6XbDw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -936,10 +778,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oPBhNlo2EeWdxs5Xx6XbDw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_p1MsAXKJEeWL1azPxSM3bA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_oPFNgVo2EeWdxs5Xx6XbDw"/>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_oPBhQFo2EeWdxs5Xx6XbDw" elementId="org.eclipse.wst.css.core.csssource.source" visible="false">
-        <tags>Draggable</tags>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_JO340o4OEeWSEJIOX-HE_g" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_oPFNgVo2EeWdxs5Xx6XbDw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oPBhRFo2EeWdxs5Xx6XbDw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -966,7 +805,7 @@
       <children xsi:type="menu:ToolControl" xmi:id="_oPBhWVo2EeWdxs5Xx6XbDw" elementId="org.eclipse.ui.StatusLine" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
         <tags>stretch</tags>
       </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_oPBhWlo2EeWdxs5Xx6XbDw" elementId="bottomRight(org.eclipse.jst.j2ee.J2EEPerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+      <children xsi:type="menu:ToolControl" xmi:id="_oPBhWlo2EeWdxs5Xx6XbDw" elementId="bottomRight(org.eclipse.jst.j2ee.J2EEPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <persistedState key="XSize" value="933"/>
         <persistedState key="YSize" value="246"/>
         <tags>TrimStack</tags>
