@@ -1,0 +1,22 @@
+package br.senai.sc.facade;
+
+import java.util.List;
+
+
+
+
+import javax.ejb.EJB;
+
+import br.senai.sc.model.Aluno;
+
+@EJB
+public interface AlunoFacade {
+
+	public abstract void deletar (Aluno aluno);
+	
+	public abstract Aluno find(int entityID);
+	
+	public abstract List findAll();
+
+	public abstract void salvar(Aluno aluno);
+}

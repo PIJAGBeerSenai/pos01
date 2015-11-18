@@ -1,0 +1,104 @@
+package br.senai.sc.mb;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+import javax.ejb.EJB;
+import javax.faces.application.FacesMessage;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+import javax.faces.bean.SessionScoped;
+import javax.faces.bean.ViewScoped;
+import javax.faces.context.FacesContext;
+
+import br.senai.sc.facade.UsuarioFacade;
+import br.senai.sc.facadeImp.UsuarioFacadeImp;
+import br.senai.sc.model.Usuario;
+
+@ManagedBean
+@RequestScoped
+public class AutentificacaoMB {
+	
+	@EJB
+	private UsuarioFacade usuarioImp;
+	private Usuario usuario;
+	public List<Usuario> usuarios;
+	private String email;
+	private String senha;	
+
+	public String logar(){
+		usuarioImp = new UsuarioFacadeImp();		
+		Usuario u = usuarioImp.findUsuarioByEmail(email);
+
+		if(u.getEmail() != null && u.getEmail().equals("email") && u.getSenha() != null && u.getSenha().equals(senha)){
+			return "index.jsf";
+		}else{
+			System.out.println("Email ou Senha invalidos");
+			return "";
+		}
+	}
+	
+	@PostConstruct
+	private void init(){
+		usuario = new Usuario();
+		usuarios = new ArrayList<Usuario>();
+		//usuarios = usuarioImp.buscarTodos();
+	}
+	
+	
+	public String salvar(){
+		//usuarioImp.salvar(usuario);
+		return "";		
+	}
+	
+
+	//getters e setters 
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+
+	public List<Usuario> getUsuarios() {
+		return usuarios;
+	}
+
+	public void setUsuarios(List<Usuario> usuarios) {
+		this.usuarios = usuarios;
+	}
+
+	
+
+	public String getEmail() {
+		return email;
+	}
+
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+
+	public String getSenha() {
+		return senha;
+	}
+
+
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+	
+	public UsuarioFacade getUsuarioImp() {
+		return usuarioImp;
+	}
+
+
+	public void setUsuarioImp(UsuarioFacade usuarioImp) {
+		this.usuarioImp = usuarioImp;
+	}
+
+	
+}

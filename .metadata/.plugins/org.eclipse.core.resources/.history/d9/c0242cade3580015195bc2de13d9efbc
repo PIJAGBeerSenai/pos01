@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets" template="template.xhtml">
+
+	<ui:define name="conteudoIndex">
+
+		<div id="cabecalho">
+			<img src="images/60px_senai_fiesc.png" title="Logo Senai"></img>
+		</div>
+
+		<div id="dadosIndex">
+			<h:form>
+				<h:outputText value="Bem Vindo!" />
+			</h:form>
+
+			<h:form>
+
+				<h:commandLink action="login.jsf" value="Login Usuario" />
+			</h:form>
+		</div>
+	</ui:define>
+
+</ui:composition>

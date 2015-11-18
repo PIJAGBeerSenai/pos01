@@ -1,0 +1,82 @@
+package br.senai.sc.mb;
+
+import javax.ejb.EJB;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+import javax.faces.context.FacesContext;
+import javax.servlet.http.HttpSession;
+
+import br.senai.sc.facade.UsuarioFacade;
+import br.senai.sc.model.Aluno;
+import br.senai.sc.model.Usuario;
+
+@ManagedBean
+@RequestScoped
+public class AutentificacaoMB {
+	
+	@EJB
+	private UsuarioFacade usuarioImp;
+	
+	private String cpf;
+	private String senha;	
+	private Usuario u;
+	
+	public String logar(){
+		 u = new Usuario();
+		 u = usuarioImp.findUsuario(cpf);
+
+		if(u.getAluno().getCpf() != null && u.getAluno().getCpf().equals("cpf") && u.getSenha() != null && u.getSenha().equals("senha")){
+			FacesContext fc = FacesContext.getCurrentInstance();
+			HttpSession session = (HttpSession) fc.getExternalContext().getSession(false);
+			session.setAttribute("idUsuario", u.getId());			
+			return "aluno.jsf";
+		}else if(u.getAluno().getCpf() == null){
+			
+			return "aluno.jsf";
+		}else{
+			System.out.println("CPF ou Senha invalidos");
+			return "login.jsf";
+		}
+		 
+	}
+
+	
+	//getters e setters
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getSenha() {
+		return senha;
+	}
+
+
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+	
+	public UsuarioFacade getUsuarioImp() {
+		return usuarioImp;
+	}
+
+
+	public void setUsuarioImp(UsuarioFacade usuarioImp) {
+		this.usuarioImp = usuarioImp;
+	}
+
+
+	public Usuario getU() {
+		return u;
+	}
+
+
+	public void setU(Usuario u) {
+		this.u = u;
+	}
+
+	
+}

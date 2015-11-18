@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+#cabecalho {
+	background-color: #017338;
+	margin: auto;
+	padding: auto;
+	text-align: center;
+}
+
+#dadosIndex {
+	background-color: white;
+	margin: auto;
+	padding: auto;
+	text-align: center;
+}
+
+#dadosLogin {
+	background-color: white;
+	margin: auto;
+	padding: auto;
+	text-align: center;
+}
+
+#dadosAluno {
+	background-color: white;
+	margin: auto;
+	padding: auto;
+	text-align: center;
+}

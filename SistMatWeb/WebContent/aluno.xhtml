@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets" template="/template.xhtml">
+
+	<ui:define name="conteudoAluno">
+
+		<div id="cabecalho">
+			<img src="images/60px_senai_fiesc.png" title="Logo Senai"></img>
+		</div>
+
+		<div id="dadosAluno">
+			<h:form>
+
+				<h:panelGrid columns="3">
+					<h:outputText value="Nome:" />
+					<h:inputText value="#{alunoMB.aluno.nome}" />
+					<h:inputHidden />
+
+					<h:outputText value="CPF:" />
+					<h:inputText value="#{alunoMB.aluno.cpf}">
+						<f:validator validatorId="converter.CpfValidator" />
+					</h:inputText>
+					<h:inputHidden />
+
+					<h:outputText value="Telefone:" />
+					<h:inputText value="#{alunoMB.aluno.telefone}" />
+					<h:inputHidden />
+
+					<h:outputText value="Matricula:" />
+					<h:inputText value="#{alunoMB.aluno.matricula}" />
+					<h:inputHidden />
+
+					<h:outputText value="Data de Mátricula:" />
+					<h:inputText value="#{alunoMB.aluno.data_matricula}">
+						<f:convertDateTime pattern="dd/MM/yyyy" />
+					</h:inputText>
+					<h:inputHidden />
+
+					<h:outputText value="Unidade: " />
+					<h:inputText value="#{alunoMB.aluno.unidade}" />
+					<h:inputHidden />
+
+					<h:outputText value="Modalidade:" />
+					<h:inputText value="#{alunoMB.aluno.modalidade}" />
+					<h:inputHidden />
+
+					<h:outputText value="E-mail: " />
+					<h:inputText value="#{alunoMB.aluno.email}" />
+					<h:inputHidden />
+
+					<h:outputText value="RG: " />
+					<h:inputText value="#{alunoMB.aluno.rg}" />
+					<h:inputHidden />
+
+					<h:outputText value="Endereço" />
+					<h:inputText value="#{alunoMB.aluno.endereco}" />
+					<h:inputHidden />
+
+					<h:outputText value="Cidade: " />
+					<h:inputText value="#{alunoMB.aluno.cidade}" />
+					<h:inputHidden />
+
+					<h:outputText value="Estado: " />
+					<h:inputText value="#{alunoMB.aluno.estado}" />
+					<h:inputHidden />
+
+					<h:outputText value="País: " />
+					<h:inputText value="#{alunoMB.aluno.pais}" />
+					<h:inputHidden />
+
+					<h:outputText value="CEP: " />
+					<h:inputText value="#{alunoMB.aluno.cep}" />
+					<h:inputHidden />
+
+					<h:outputText value="Fase: " />
+					<h:selectOneMenu valueChangeListener="#{alunoMB.fasechanged}"
+						onchange="submit()">
+						<f:selectItem itemLabel="--Selecione uma Fase--" itemValue="0"
+							noSelectionOption="true" />
+						<f:selectItem itemLabel="1 Fase" itemValue="1" />
+						<f:selectItem itemLabel="2 Fase" itemValue="2" />
+						<f:selectItem itemLabel="3 Fase" itemValue="3" />
+						<f:selectItem itemLabel="4 Fase" itemValue="4" />
+						<f:selectItem itemLabel="5 Fase" itemValue="5" />
+						<f:selectItem itemLabel="6 Fase" itemValue="6" />
+
+					</h:selectOneMenu>
+					<h:inputHidden />
+
+					<h:column>
+						<h:commandButton value="Salvar" action="#{alunoMB.salvar}" />
+					</h:column>
+				</h:panelGrid>
+
+				<h:form>
+					<div>
+						<h:dataTable border="1" value="#{alunoMB.unidadeCurricularLista}"
+							var="und">
+							<h:column>
+								<f:facet name="header">Nome</f:facet>
+								<h:selectBooleanCheckbox value="#{und.selecionado}" />
+				#{und.nome}
+				</h:column>
+
+							<h:column>
+								<f:facet name="header">Carga Horária</f:facet>
+				#{und.cargaHoraria}
+				</h:column>
+						</h:dataTable>
+					</div>
+				</h:form>
+
+			</h:form>
+			<h:form>
+				<div>
+					<h:dataTable border="1" value="#{alunoMB.alunoLista}" var="alu">
+
+						<h:column>
+							<f:facet name="header">Nome</f:facet>
+				#{alu.nome}
+				</h:column>
+
+						<h:column>
+							<f:facet name="header">CPF</f:facet>
+				#{alu.cpf}
+				</h:column>
+
+						<h:column>
+							<f:facet name="header">Telefone</f:facet>
+				#{alu.telefone}
+				</h:column>
+
+						<h:column>
+							<f:facet name="header">Matricula</f:facet>
+				#{alu.matricula}
+				</h:column>
+
+						<h:column>
+							<f:facet name="header">Data da Matricula</f:facet>
+				#{alu.data_matricula}
+				</h:column>
+
+						<h:column>
+							<f:facet name="header">Unidade</f:facet>
+				#{alu.unidade}
+				</h:column>
+
+						<h:column>
+							<f:facet name="header">Modalidade</f:facet>
+				#{alu.modalidade}
+				</h:column>
+
+						<h:column>
+							<f:facet name="header">E-mail</f:facet>
+				#{alu.email}
+				</h:column>
+
+						<h:column>
+							<f:facet name="header">RG</f:facet>
+				#{alu.rg}
+				</h:column>
+
+						<h:column>
+							<f:facet name="header">Endereço</f:facet>
+				#{alu.endereco}
+				</h:column>
+
+						<h:column>
+							<f:facet name="header">Cidade</f:facet>
+				#{alu.cidade}
+				</h:column>
+
+						<h:column>
+							<f:facet name="header">Estado</f:facet>
+				#{alu.estado}
+				</h:column>
+
+						<h:column>
+							<f:facet name="header">Pais</f:facet>
+				#{alu.pais}
+				</h:column>
+
+						<h:column>
+							<f:facet name="header">CEP</f:facet>
+				#{alu.cep}
+				</h:column>
+
+
+						<h:column>
+							<h:commandButton value="Editar">
+								<f:setPropertyActionListener target="#{alunoMB.aluno}"
+									value="#{alu}" />
+							</h:commandButton>
+						</h:column>
+					</h:dataTable>
+				</div>
+			</h:form>
+
+		</div>
+	</ui:define>
+</ui:composition>

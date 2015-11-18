@@ -1,0 +1,25 @@
+package br.senai.sc.facadeImp;
+
+import java.util.List;
+
+import javax.ejb.EJB;
+import javax.ejb.Stateless;
+
+import br.senai.sc.dao.UsuarioDAO;
+import br.senai.sc.model.Usuario;
+import br.senai.sc.facade.UsuarioFacade;
+
+@Stateless
+public class UsuarioFacadeImp implements UsuarioFacade {
+
+	public List<Usuario> buscarTodos() {		
+		return null;
+	}
+
+	@Override
+	public Usuario findUsuarioByEmail(String email) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

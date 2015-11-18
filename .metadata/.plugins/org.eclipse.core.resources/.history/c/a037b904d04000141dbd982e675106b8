@@ -1,0 +1,5 @@
+package br.rentacarJPA.entidades;
+
+public class Automovel {
+
+}

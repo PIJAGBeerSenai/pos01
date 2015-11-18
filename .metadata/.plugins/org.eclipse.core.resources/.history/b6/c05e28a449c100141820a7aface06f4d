@@ -1,0 +1,33 @@
+package br.senai.sc.facadeImp;
+
+import java.util.List;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.PersistenceContext;
+
+import br.senai.sc.model.Usuario;
+import br.senai.sc.Util.JpaUtil;
+import br.senai.sc.facade.UsuarioFacade;
+
+@Stateless
+public class UsuarioFacadeImp implements UsuarioFacade {
+	
+	
+	@PersistenceContext
+	private EntityManagerFactory em = JpaUtil.getEntityManager();
+
+	public List<Usuario> buscarTodos() {		
+		return null;
+	}
+
+	@Override
+	public Usuario findUsuarioByEmail(String email) {
+			return (Usuario) em.createNamedQuery(Usuario.FIND_BY_EMAIL, Usuario.class).setParameter("email", email).getSingleResult();	
+		
+		
+		
+	}
+	
+}

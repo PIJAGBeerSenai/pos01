@@ -1,0 +1,13 @@
+package br.senai.sc.facade;
+
+
+
+import javax.ejb.EJB;
+
+import br.senai.sc.model.Usuario;
+
+@EJB
+public interface UsuarioFacade {
+
+	public Usuario findUsuarioByEmail(String email);
+}

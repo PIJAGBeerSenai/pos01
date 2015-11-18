@@ -1,0 +1,11 @@
+package br.senai.sc.facade;
+
+
+
+import br.senai.sc.model.Usuario;
+
+
+public interface UsuarioFacade {
+
+	public Usuario findUsuarioByEmail(String email);
+}
